@@ -34,7 +34,7 @@ public class UserController {
     /** {@inheritDoc} */
     @RequestMapping(value = "/registration", method = RequestMethod.POST)
     public final String registration(final @ModelAttribute("userForm") User userForm, 
-    	final BindingResult bindingResult, final Model model) {
+    	
     	
         userValidator.validate(userForm, bindingResult);
         if (bindingResult.hasErrors()) {
@@ -67,5 +67,5 @@ public class UserController {
     @RequestMapping(value = { "/index"} , method = RequestMethod.GET)
     public final String indexHome(final Model model) {
         return "index_home";
-    }
+    
 }
