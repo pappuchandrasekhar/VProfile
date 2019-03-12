@@ -13,13 +13,8 @@
 	<link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.min.css">
 </head>
 <body>
-sdfsdf
 	
-	
-	
-	
-	
-div class="mainbody container-fluid">
+<div class="mainbody container-fluid">
     <div class="row">
         <div class="navbar-wrapper">
             <div class="container-fluid">
